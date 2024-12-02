@@ -1,8 +1,7 @@
-# React + Vite
+Timer Rank Challenge
+This project is a React-based web application built with Vite, where users are challenged to start and stop timers as close as possible to a target time. The closer the user stops the timer to the actual target time, the higher their rank, which ranges from 0 to 100.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features:
+Start and stop a timer at any time before it expires.
+Get a rank between 0-100 based on how close the stop time is to the target time.
+Real-time feedback to track performance.
